@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1028267060360",
+    "firebase_url": "https://final-project-niharika-m.firebaseio.com",
+    "project_id": "final-project-niharika-m",
+    "storage_bucket": "final-project-niharika-m.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028267060360:android:d3c190f37d1163ae",
+        "android_client_info": {
+          "package_name": "edu.illinois.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028267060360-ll8tootu5lbvahumjagvi6hrdaroc4f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvbMMX3VMJ1zt2JNMKCcPl8zyfwKmRQOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

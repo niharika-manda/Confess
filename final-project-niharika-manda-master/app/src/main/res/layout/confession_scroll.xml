@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:fontFamily="@font/advent_pro"
+            android:text="mental health, wellness"
+
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            tools:style="@android:style/Widget.Material.Light.TextView.SpinnerItem" />
+
+        <TextView
+            android:id="@+id/random_username"
+            style="@android:style/Widget.Holo.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
+            android:text="Champaign, Illinois"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/confession_image"
+            android:layout_width="219dp"
+            android:layout_height="126dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <TextView
+            android:id="@+id/confession_title"
+            style="@android:style/Widget.Material.Light.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="@font/advent_pro"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/confession_description"
+            android:layout_width="315dp"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            tools:fontFamily="@font/advent_pro"
+            tools:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:clickable="true">
+
+            <Button
+                android:id="@+id/like_button"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anaheim"
+                android:text="RELATABLE" />
+
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/anaheim"
+                android:text="Confess" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
